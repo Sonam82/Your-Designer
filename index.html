@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Your Designer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about_us.html">About Us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gallery.html">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="services.html"> Services </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="contect.html">Contect Us </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/image1-1.webp"
+              class="d-block w-100"
+              alt="Images"
+            />
+            <div class="carousel-caption d-md-block">
+              <p>Your Fasion Our Profession</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/design1.avif" class="d-block w-100" alt="Image" />
+            <div class="carousel-caption d-md-block">
+              <p>Get your Dream Dress</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/SBIHMI_3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <p>A Good Costume gives you a Good Look</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- About Us Section Strat -->
+    <section class="main_heading my-5">
+      <div class="text-center">
+        <h1 class="display-4">About Us</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+            <figure>
+              <img
+                src="images/abt.jpg"
+                alt="About Image"
+                class="img-fluid abt_img"
+              />
+            </figure>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start flex-column"
+          >
+            <h3>
+              <!-- <p> -->
+              With our expert design services, you can be sure that your outfit
+              will be one-of-a-kind and tailored to your individual preferences.
+              Whether you're looking for dress designing, cutting, sewing, or
+              training, we've got you covered.
+              <!-- </p> -->
+            </h3>
+            <h1 class="text-center">Our Mission</h1>
+            <p>
+              Our mission is to provide our clients with the best possible
+              fashion design experience, with a focus on creativity, quality,
+              and exceptional customer service. We strive to be the go-to
+              destination for all your fashion needs, with an unwavering
+              commitment to excellence.
+            </p>
+            `
+            <button
+              type="button"
+              class="btn btn-outline-info"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              data-bs-title="Tooltip on right"
+            >
+              Check more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section end -->
+
+    <!-- Our Services section start -->
+    <section class="main_heading my-5 bg-secondary py-3">
+      <div class="text-center">
+        <h1 class="display-4">Our Services</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container services">
+        <div class="row my-5">
+          <div class="col-sm-6 col-md-4 col-10 col-xxl-4 mx-auto">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/dress_designing.jpg"
+                    class="img-fluid"
+                    alt="Services image"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Dress designing</h5>
+                    <p class="card-text">
+                      Our fashion designers work with you to create your dream
+                      outfit from scratch. We take your individual preferences
+                      and create a stunning and unique dress that fits you
+                      perfectly.
+                    </p>
+                    <!-- <p class="card-text">
+                      <small class="text-body-secondary"
+                        >Last updated 3 mins ago</small
+                      >
+                    </p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-10 col-xxl-4 mx-auto">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/sewing.webp"
+                    class="img-fluid"
+                    alt="Services image"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Sewing</h5>
+                    <p class="card-text">
+                      Our skilled seamstresses use high-quality materials and
+                      expert sewing techniques to create beautiful and durable
+                      outfits that you can enjoy for years to come.
+                    </p>
+                    <!-- <p class="card-text">
+                      <small class="text-body-secondary"
+                        >Last updated 3 mins ago</small
+                      >
+                    </p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-10 col-xxl-4 mx-auto">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row">
+                <div class="col-md-4">
+                  <img
+                    src="images/training2.jpg"
+                    class="img-fluid"
+                    alt="Services image"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Training</h5>
+                    <p class="card-text">
+                      We offer training programs and workshops to help aspiring
+                      fashion designers learn the skills and techniques, it
+                      cover everything that you need to succeed in the fashion
+                      industry.
+                    </p>
+                    <!-- <p class="card-text">
+                      <small class="text-body-secondary"
+                        >Last updated 3 mins ago</small
+                      >
+                    </p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center m-5">
+        <a href="services.html">
+          <button type="button" class="btn btn-outline-info">Check more</button>
+        </a>
+      </div>
+    </section>
+    <!-- Our Services section end -->
+
+    <!-- Gallery section -->
+    <section class="main_heading my-5">
+      <div class="text-center">
+        <h1 class="display-4">Gallery</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container my-5">
+        <div class="row gy-2">
+          <div class="col-sm-6 col-md-3 col-10 col-xxl-4 mx-auto">
+            <figure>
+              <img src="images/Drs4.jpg" alt="images" class="img-fluid" />
+            </figure>
+          </div>
+          <div class="col-sm-6 col-md-3 col-10 col-xxl-4 mx-auto">
+            <figure>
+              <img src="images/Drs9.jpg" alt="images" class="img-fluid" />
+            </figure>
+          </div>
+          <div class="col-sm-6 col-md-3 col-10 col-xxl-4 mx-auto">
+            <figure>
+              <img src="images/Drs23.jpg" alt="images" class="img-fluid" />
+            </figure>
+          </div>
+          <div class="col-sm-6 col-md-3 col-10 col-xxl-4 mx-auto">
+            <figure>
+              <img src="images/Drs25.jpg" alt="images" class="img-fluid" />
+            </figure>
+          </div>
+          <div class="col text-center m-5">
+            <a href="gallery.html">
+              <button type="button" class="btn btn-outline-info">
+                Check more images
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main_heading py-2 vd-styl">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xxl-12 col-12 py-5 text-center">
+            <h1 class="text-white">Check out my videos</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Laboriosam esse sit aliquam iste saepe explicabo corporis alias
+              est. Rerum quisquam laborum qui quibusdam doloremque blanditiis
+              amet eum facere iste saepe.
+            </p>
+
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                />
+              </svg>
+              Check more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Model section start -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              My some videos
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">I hope you'll enjoy the videos</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a
+              href="https://www.instagram.com/d.sona_82/reels/"
+              target="_blank"
+            >
+              <button type="button" class="btn btn-primary">Check Now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Model section end -->
+    <section class="main_heading my-5">
+      <div class="text-center">
+        <h1 class="display-4">Contact Us</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-8 col-10 col-md-8 mx-auto">
+            <form action="connections1.php" method="post">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  name="em"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  name="na"
+                />
+                <label for="exampleInputPassword1" class="form-label"
+                  >Contact No.</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  name="no"
+                />
+              </div>
+              <!-- <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Contact No.</label
+                >
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  name="na"
+                />
+              </div> -->
+              <div class="mb-3">
+                <label for="gen" class="pe-3">Gender</label>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="F"
+                  />
+                  <label class="form-check-label" for="inlineRadio1"
+                    >Female</label
+                  >
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="M"
+                  />
+                  <label class="form-check-label" for="inlineRadio2"
+                    >Male</label
+                  >
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleDataList" class="form-label"
+                  >Select City</label
+                >
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="exampleDataList"
+                  placeholder="Type to search..."
+                />
+                <datalist id="datalistOptions">
+                  <option value="San Francisco"></option>
+                  <option value="New York"></option>
+                  <option value="Seattle"></option>
+                  <option value="Los Angeles"></option>
+                  <option value="Chicago"></option>
+                </datalist>
+              </div>
+              <!-- <div class="mb-3">
+                <input class="form-control" type="file" id="formFile" />
+              </div> -->
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                value="submit"
+                name="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-secondary text-center text-white"><p>@My Web</p></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const myCarouselElement = document.querySelector(
+        "#carouselExampleCaptions"
+      );
+
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 2000,
+        touch: false,
+      });
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>
